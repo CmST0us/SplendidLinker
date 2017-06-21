@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F7864DC1EE7FDBA0047E416 /* libSplendidTunnel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7864DB1EE7FDBA0047E416 /* libSplendidTunnel.a */; };
+		4F852C551EDF0C9A00925D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F852C541EDF0C9A00925D5F /* main.m */; };
+		4F852C581EDF0C9A00925D5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F852C571EDF0C9A00925D5F /* AppDelegate.m */; };
+		4F852C5B1EDF0C9A00925D5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F852C5A1EDF0C9A00925D5F /* ViewController.m */; };
+		4F852C5E1EDF0C9A00925D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F852C5C1EDF0C9A00925D5F /* Main.storyboard */; };
+		4F852C601EDF0C9A00925D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F852C5F1EDF0C9A00925D5F /* Assets.xcassets */; };
+		4F852C631EDF0C9A00925D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F852C611EDF0C9A00925D5F /* LaunchScreen.storyboard */; };
+		4F852C6B1EDF0CBC00925D5F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F852C6A1EDF0CBB00925D5F /* NetworkExtension.framework */; };
+		4F852C771EDF0E8600925D5F /* PacketTunnelProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F852C761EDF0E8600925D5F /* PacketTunnelProvider.mm */; };
+		4F852C7B1EDF0E8600925D5F /* PacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F852C711EDF0E8600925D5F /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F852C8A1EDF110C00925D5F /* AppProxyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F852C891EDF110C00925D5F /* AppProxyProvider.m */; };
+		4F852C8E1EDF110C00925D5F /* AppProxy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F852C841EDF110C00925D5F /* AppProxy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F852C9E1EDF138600925D5F /* NECreateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F852C9D1EDF138600925D5F /* NECreateTest.m */; };
+		4FFCEA6D1EE1D12B00FFDE73 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F852C6A1EDF0CBB00925D5F /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F852C791EDF0E8600925D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F852C481EDF0C9A00925D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F852C701EDF0E8600925D5F;
+			remoteInfo = PacketTunnel;
+		};
+		4F852C8C1EDF110C00925D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F852C481EDF0C9A00925D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F852C831EDF110C00925D5F;
+			remoteInfo = AppProxy;
+		};
+		4F852CA01EDF138600925D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F852C481EDF0C9A00925D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F852C4F1EDF0C9A00925D5F;
+			remoteInfo = SplendidLinker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F852C7F1EDF0E8600925D5F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F852C7B1EDF0E8600925D5F /* PacketTunnel.appex in Embed App Extensions */,
+				4F852C8E1EDF110C00925D5F /* AppProxy.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F7864DB1EE7FDBA0047E416 /* libSplendidTunnel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSplendidTunnel.a; path = "../../../Library/Developer/Xcode/DerivedData/SplendidLinker-agsuojzpbxchqsfhfrtgqlhgatup/Build/Products/Debug-iphoneos/libSplendidTunnel.a"; sourceTree = "<group>"; };
+		4F852C501EDF0C9A00925D5F /* SplendidLinker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplendidLinker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F852C541EDF0C9A00925D5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F852C561EDF0C9A00925D5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F852C571EDF0C9A00925D5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F852C591EDF0C9A00925D5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F852C5A1EDF0C9A00925D5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F852C5D1EDF0C9A00925D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F852C5F1EDF0C9A00925D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F852C621EDF0C9A00925D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F852C641EDF0C9A00925D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F852C6A1EDF0CBB00925D5F /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		4F852C6C1EDF0CBC00925D5F /* SplendidLinker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SplendidLinker.entitlements; sourceTree = "<group>"; };
+		4F852C711EDF0E8600925D5F /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F852C741EDF0E8600925D5F /* PacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PacketTunnel.entitlements; sourceTree = "<group>"; };
+		4F852C751EDF0E8600925D5F /* PacketTunnelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		4F852C761EDF0E8600925D5F /* PacketTunnelProvider.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PacketTunnelProvider.mm; sourceTree = "<group>"; };
+		4F852C781EDF0E8600925D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F852C841EDF110C00925D5F /* AppProxy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppProxy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F852C871EDF110C00925D5F /* AppProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AppProxy.entitlements; sourceTree = "<group>"; };
+		4F852C881EDF110C00925D5F /* AppProxyProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppProxyProvider.h; sourceTree = "<group>"; };
+		4F852C891EDF110C00925D5F /* AppProxyProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppProxyProvider.m; sourceTree = "<group>"; };
+		4F852C8B1EDF110C00925D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F852C9B1EDF138600925D5F /* NECreateTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NECreateTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F852C9D1EDF138600925D5F /* NECreateTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NECreateTest.m; sourceTree = "<group>"; };
+		4F852C9F1EDF138600925D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F852C4D1EDF0C9A00925D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F852C6B1EDF0CBC00925D5F /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C6E1EDF0E8600925D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7864DC1EE7FDBA0047E416 /* libSplendidTunnel.a in Frameworks */,
+				4FFCEA6D1EE1D12B00FFDE73 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C811EDF110C00925D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C981EDF138600925D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F852C471EDF0C9A00925D5F = {
+			isa = PBXGroup;
+			children = (
+				4F7864DB1EE7FDBA0047E416 /* libSplendidTunnel.a */,
+				4F852C6A1EDF0CBB00925D5F /* NetworkExtension.framework */,
+				4F852C521EDF0C9A00925D5F /* SplendidLinker */,
+				4F852C721EDF0E8600925D5F /* PacketTunnel */,
+				4F852C851EDF110C00925D5F /* AppProxy */,
+				4F852C9C1EDF138600925D5F /* NECreateTest */,
+				4F852C511EDF0C9A00925D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F852C511EDF0C9A00925D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C501EDF0C9A00925D5F /* SplendidLinker.app */,
+				4F852C711EDF0E8600925D5F /* PacketTunnel.appex */,
+				4F852C841EDF110C00925D5F /* AppProxy.appex */,
+				4F852C9B1EDF138600925D5F /* NECreateTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F852C521EDF0C9A00925D5F /* SplendidLinker */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C6C1EDF0CBC00925D5F /* SplendidLinker.entitlements */,
+				4F852C921EDF12E100925D5F /* Delegate */,
+				4F852C931EDF12E800925D5F /* Controller */,
+				4F852C941EDF12F400925D5F /* Resources */,
+				4F852C951EDF130100925D5F /* Model */,
+				4F852C961EDF130E00925D5F /* Vendor */,
+				4F852C531EDF0C9A00925D5F /* Supporting Files */,
+			);
+			path = SplendidLinker;
+			sourceTree = "<group>";
+		};
+		4F852C531EDF0C9A00925D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C641EDF0C9A00925D5F /* Info.plist */,
+				4F852C541EDF0C9A00925D5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F852C721EDF0E8600925D5F /* PacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C751EDF0E8600925D5F /* PacketTunnelProvider.h */,
+				4F852C761EDF0E8600925D5F /* PacketTunnelProvider.mm */,
+				4F852C781EDF0E8600925D5F /* Info.plist */,
+				4F852C731EDF0E8600925D5F /* Supporting Files */,
+			);
+			path = PacketTunnel;
+			sourceTree = "<group>";
+		};
+		4F852C731EDF0E8600925D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C741EDF0E8600925D5F /* PacketTunnel.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F852C851EDF110C00925D5F /* AppProxy */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C881EDF110C00925D5F /* AppProxyProvider.h */,
+				4F852C891EDF110C00925D5F /* AppProxyProvider.m */,
+				4F852C8B1EDF110C00925D5F /* Info.plist */,
+				4F852C861EDF110C00925D5F /* Supporting Files */,
+			);
+			path = AppProxy;
+			sourceTree = "<group>";
+		};
+		4F852C861EDF110C00925D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C871EDF110C00925D5F /* AppProxy.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F852C921EDF12E100925D5F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C561EDF0C9A00925D5F /* AppDelegate.h */,
+				4F852C571EDF0C9A00925D5F /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		4F852C931EDF12E800925D5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C591EDF0C9A00925D5F /* ViewController.h */,
+				4F852C5A1EDF0C9A00925D5F /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4F852C941EDF12F400925D5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C5C1EDF0C9A00925D5F /* Main.storyboard */,
+				4F852C5F1EDF0C9A00925D5F /* Assets.xcassets */,
+				4F852C611EDF0C9A00925D5F /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F852C951EDF130100925D5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F852C961EDF130E00925D5F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		4F852C9C1EDF138600925D5F /* NECreateTest */ = {
+			isa = PBXGroup;
+			children = (
+				4F852C9D1EDF138600925D5F /* NECreateTest.m */,
+				4F852C9F1EDF138600925D5F /* Info.plist */,
+			);
+			path = NECreateTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F852C4F1EDF0C9A00925D5F /* SplendidLinker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F852C671EDF0C9A00925D5F /* Build configuration list for PBXNativeTarget "SplendidLinker" */;
+			buildPhases = (
+				4F852C4C1EDF0C9A00925D5F /* Sources */,
+				4F852C4D1EDF0C9A00925D5F /* Frameworks */,
+				4F852C4E1EDF0C9A00925D5F /* Resources */,
+				4F852C7F1EDF0E8600925D5F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F852C7A1EDF0E8600925D5F /* PBXTargetDependency */,
+				4F852C8D1EDF110C00925D5F /* PBXTargetDependency */,
+			);
+			name = SplendidLinker;
+			productName = SplendidLinker;
+			productReference = 4F852C501EDF0C9A00925D5F /* SplendidLinker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F852C701EDF0E8600925D5F /* PacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F852C7C1EDF0E8600925D5F /* Build configuration list for PBXNativeTarget "PacketTunnel" */;
+			buildPhases = (
+				4F852C6D1EDF0E8600925D5F /* Sources */,
+				4F852C6E1EDF0E8600925D5F /* Frameworks */,
+				4F852C6F1EDF0E8600925D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacketTunnel;
+			productName = PacketTunnel;
+			productReference = 4F852C711EDF0E8600925D5F /* PacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4F852C831EDF110C00925D5F /* AppProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F852C8F1EDF110C00925D5F /* Build configuration list for PBXNativeTarget "AppProxy" */;
+			buildPhases = (
+				4F852C801EDF110C00925D5F /* Sources */,
+				4F852C811EDF110C00925D5F /* Frameworks */,
+				4F852C821EDF110C00925D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppProxy;
+			productName = AppProxy;
+			productReference = 4F852C841EDF110C00925D5F /* AppProxy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4F852C9A1EDF138600925D5F /* NECreateTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F852CA21EDF138600925D5F /* Build configuration list for PBXNativeTarget "NECreateTest" */;
+			buildPhases = (
+				4F852C971EDF138600925D5F /* Sources */,
+				4F852C981EDF138600925D5F /* Frameworks */,
+				4F852C991EDF138600925D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F852CA11EDF138600925D5F /* PBXTargetDependency */,
+			);
+			name = NECreateTest;
+			productName = NECreateTest;
+			productReference = 4F852C9B1EDF138600925D5F /* NECreateTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F852C481EDF0C9A00925D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CmST0us;
+				TargetAttributes = {
+					4F852C4F1EDF0C9A00925D5F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2VQ94C2355;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+					4F852C701EDF0E8600925D5F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2VQ94C2355;
+					};
+					4F852C831EDF110C00925D5F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2VQ94C2355;
+					};
+					4F852C9A1EDF138600925D5F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F852C4F1EDF0C9A00925D5F;
+					};
+				};
+			};
+			buildConfigurationList = 4F852C4B1EDF0C9A00925D5F /* Build configuration list for PBXProject "SplendidLinker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F852C471EDF0C9A00925D5F;
+			productRefGroup = 4F852C511EDF0C9A00925D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F852C4F1EDF0C9A00925D5F /* SplendidLinker */,
+				4F852C701EDF0E8600925D5F /* PacketTunnel */,
+				4F852C831EDF110C00925D5F /* AppProxy */,
+				4F852C9A1EDF138600925D5F /* NECreateTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F852C4E1EDF0C9A00925D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F852C631EDF0C9A00925D5F /* LaunchScreen.storyboard in Resources */,
+				4F852C601EDF0C9A00925D5F /* Assets.xcassets in Resources */,
+				4F852C5E1EDF0C9A00925D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C6F1EDF0E8600925D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C821EDF110C00925D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C991EDF138600925D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F852C4C1EDF0C9A00925D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F852C5B1EDF0C9A00925D5F /* ViewController.m in Sources */,
+				4F852C581EDF0C9A00925D5F /* AppDelegate.m in Sources */,
+				4F852C551EDF0C9A00925D5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C6D1EDF0E8600925D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F852C771EDF0E8600925D5F /* PacketTunnelProvider.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C801EDF110C00925D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F852C8A1EDF110C00925D5F /* AppProxyProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F852C971EDF138600925D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F852C9E1EDF138600925D5F /* NECreateTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F852C7A1EDF0E8600925D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F852C701EDF0E8600925D5F /* PacketTunnel */;
+			targetProxy = 4F852C791EDF0E8600925D5F /* PBXContainerItemProxy */;
+		};
+		4F852C8D1EDF110C00925D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F852C831EDF110C00925D5F /* AppProxy */;
+			targetProxy = 4F852C8C1EDF110C00925D5F /* PBXContainerItemProxy */;
+		};
+		4F852CA11EDF138600925D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F852C4F1EDF0C9A00925D5F /* SplendidLinker */;
+			targetProxy = 4F852CA01EDF138600925D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F852C5C1EDF0C9A00925D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F852C5D1EDF0C9A00925D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F852C611EDF0C9A00925D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F852C621EDF0C9A00925D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F852C651EDF0C9A00925D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/CmST0us/Project/xCode_Project/SplendidLinker/libevent/include,
+					/Users/CmST0us/opt/usr/include,
+					/opt/local/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = /Users/CmST0us/opt/usr/lib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-levent_core",
+					"-levent",
+					"-lprotobuf",
+					"-levent_pthreads",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F852C661EDF0C9A00925D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/CmST0us/Project/xCode_Project/SplendidLinker/libevent/include,
+					/Users/CmST0us/opt/usr/include,
+					/opt/local/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = /Users/CmST0us/opt/usr/lib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-levent_core",
+					"-levent",
+					"-lprotobuf",
+					"-levent_pthreads",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F852C681EDF0C9A00925D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SplendidLinker/SplendidLinker.entitlements;
+				INFOPLIST_FILE = SplendidLinker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SplendidTunnel/build/Debug",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.SplendidLinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F852C691EDF0C9A00925D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SplendidLinker/SplendidLinker.entitlements;
+				INFOPLIST_FILE = SplendidLinker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SplendidTunnel/build/Debug",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.SplendidLinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F852C7D1EDF0E8600925D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SplendidTunnel/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.SplendidLinker.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F852C7E1EDF0E8600925D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SplendidTunnel/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.SplendidLinker.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4F852C901EDF110C00925D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppProxy/AppProxy.entitlements;
+				INFOPLIST_FILE = AppProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.SplendidLinker.AppProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F852C911EDF110C00925D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppProxy/AppProxy.entitlements;
+				INFOPLIST_FILE = AppProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.SplendidLinker.AppProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4F852CA31EDF138600925D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NECreateTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.NECreateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplendidLinker.app/SplendidLinker";
+			};
+			name = Debug;
+		};
+		4F852CA41EDF138600925D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NECreateTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.NECreateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplendidLinker.app/SplendidLinker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F852C4B1EDF0C9A00925D5F /* Build configuration list for PBXProject "SplendidLinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F852C651EDF0C9A00925D5F /* Debug */,
+				4F852C661EDF0C9A00925D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F852C671EDF0C9A00925D5F /* Build configuration list for PBXNativeTarget "SplendidLinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F852C681EDF0C9A00925D5F /* Debug */,
+				4F852C691EDF0C9A00925D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F852C7C1EDF0E8600925D5F /* Build configuration list for PBXNativeTarget "PacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F852C7D1EDF0E8600925D5F /* Debug */,
+				4F852C7E1EDF0E8600925D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F852C8F1EDF110C00925D5F /* Build configuration list for PBXNativeTarget "AppProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F852C901EDF110C00925D5F /* Debug */,
+				4F852C911EDF110C00925D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F852CA21EDF138600925D5F /* Build configuration list for PBXNativeTarget "NECreateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F852CA31EDF138600925D5F /* Debug */,
+				4F852CA41EDF138600925D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F852C481EDF0C9A00925D5F /* Project object */;
+}

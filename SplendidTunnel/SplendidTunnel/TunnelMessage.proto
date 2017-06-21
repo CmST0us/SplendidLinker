@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package st;
+
+message TunnelMessage {
+    enum Type {
+        REQUEST = 0;
+        RESPONSE = 1;
+    }
+
+    enum MessageCode {
+        AUTHORIZATION = 0;
+        ESTABLISH = 1;
+        BUSY = 2;
+        DATA = 3;
+    }
+
+    enum PasswordEncryptType {
+        NO = 0;
+        BASE64 = 1;
+    }
+    enum LinkEncryptType {
+        RAW_DATA = 0;
+    }
+
+    string username = 1;
+    string password = 2;
+    string ip = 4;
+    string submask = 5;
+    string gateway = 6;
+    repeated string dns = 7;
+
+    Type type = 8;
+    MessageCode messageCode = 9;
+    PasswordEncryptType passwordEncryptType = 10;
+    LinkEncryptType linkEncryptType = 11;
+
+    message TunnelPacket {
+        bytes packetData = 12;
+    };
+
+    TunnelPacket packet = 13;
+
+};

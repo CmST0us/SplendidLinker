@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F78586C1EE736BD0047E416 /* SLUTNInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F78586A1EE736BD0047E416 /* SLUTNInterface.cpp */; };
+		4F78586E1EE736BD0047E416 /* SLUTNInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F78586A1EE736BD0047E416 /* SLUTNInterface.cpp */; };
+		4F78586F1EE736BD0047E416 /* SLUTNInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F78586A1EE736BD0047E416 /* SLUTNInterface.cpp */; };
+		4F7858701EE736BD0047E416 /* SLUTNInterface.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4F78586B1EE736BD0047E416 /* SLUTNInterface.hpp */; };
+		4F7858711EE736CE0047E416 /* SLUTNInterface.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F78586B1EE736BD0047E416 /* SLUTNInterface.hpp */; };
+		4F7858731EE736DA0047E416 /* SLUTNInterface.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F78586B1EE736BD0047E416 /* SLUTNInterface.hpp */; };
+		4F7858741EE736E30047E416 /* SLUTNInterface.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F78586B1EE736BD0047E416 /* SLUTNInterface.hpp */; };
+		4F7858751EE736E90047E416 /* SLUTNInterface.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F78586B1EE736BD0047E416 /* SLUTNInterface.hpp */; };
+		4F7864E41EE813350047E416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7864E31EE813350047E416 /* main.m */; };
+		4F7864EA1EE815410047E416 /* Foo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F7864E91EE815410047E416 /* Foo.mm */; };
+		4F8DFD7A1EE46DFE0020B438 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DFD791EE46DFE0020B438 /* main.cpp */; };
+		4F8DFD821EE483490020B438 /* libSplendidTunnel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFCEA461EE1C4BC00FFDE73 /* libSplendidTunnel.a */; };
+		4F8DFD861EE4889E0020B438 /* TunnelMessage.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DFD841EE4889E0020B438 /* TunnelMessage.pb.cc */; };
+		4F8DFD871EE4889E0020B438 /* TunnelMessage.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DFD841EE4889E0020B438 /* TunnelMessage.pb.cc */; };
+		4F8DFD881EE4889E0020B438 /* TunnelMessage.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8DFD851EE4889E0020B438 /* TunnelMessage.pb.h */; };
+		4F8DFD911EE562F40020B438 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DFD901EE562F40020B438 /* main.cpp */; };
+		4F8DFD951EE56A9A0020B438 /* libSplendidTunnel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFCEA461EE1C4BC00FFDE73 /* libSplendidTunnel.a */; };
+		4F8DFD981EE5AEEC0020B438 /* SLConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DFD961EE5AEEC0020B438 /* SLConnection.cpp */; };
+		4F8DFD9A1EE5AEEC0020B438 /* SLConnection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4F8DFD971EE5AEEC0020B438 /* SLConnection.hpp */; };
+		4F8DFD9B1EE5AEFB0020B438 /* SLConnection.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD971EE5AEEC0020B438 /* SLConnection.hpp */; };
+		4F8DFD9C1EE5AF040020B438 /* SLConnection.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD971EE5AEEC0020B438 /* SLConnection.hpp */; };
+		4FCF672F1EE67F8300662D45 /* TunnelMessage.pb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD851EE4889E0020B438 /* TunnelMessage.pb.h */; };
+		4FCF67301EE67F8300662D45 /* MarcoTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD721EE467C70020B438 /* MarcoTools.h */; };
+		4FCF67311EE67F8B00662D45 /* TunnelMessage.pb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD851EE4889E0020B438 /* TunnelMessage.pb.h */; };
+		4FCF67321EE67F8B00662D45 /* MarcoTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD721EE467C70020B438 /* MarcoTools.h */; };
+		4FCF67341EE6813100662D45 /* TunnelMessage.pb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD851EE4889E0020B438 /* TunnelMessage.pb.h */; };
+		4FCF67351EE6813100662D45 /* MarcoTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD721EE467C70020B438 /* MarcoTools.h */; };
+		4FCF67361EE6813100662D45 /* SLTunnel.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA491EE1C4BC00FFDE73 /* SLTunnel.hpp */; };
+		4FCF67371EE6813100662D45 /* SLClient.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA6F1EE3217000FFDE73 /* SLClient.hpp */; };
+		4FCF67381EE6813100662D45 /* SLServer.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA741EE3218800FFDE73 /* SLServer.hpp */; };
+		4FCF67391EE6813100662D45 /* SLConnection.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD971EE5AEEC0020B438 /* SLConnection.hpp */; };
+		4FCF673B1EE6814E00662D45 /* TunnelMessage.pb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD851EE4889E0020B438 /* TunnelMessage.pb.h */; };
+		4FCF673C1EE6814E00662D45 /* MarcoTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD721EE467C70020B438 /* MarcoTools.h */; };
+		4FCF673D1EE6814E00662D45 /* SLTunnel.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA491EE1C4BC00FFDE73 /* SLTunnel.hpp */; };
+		4FCF673E1EE6814E00662D45 /* SLClient.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA6F1EE3217000FFDE73 /* SLClient.hpp */; };
+		4FCF673F1EE6814E00662D45 /* SLServer.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA741EE3218800FFDE73 /* SLServer.hpp */; };
+		4FCF67401EE6814E00662D45 /* SLConnection.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8DFD971EE5AEEC0020B438 /* SLConnection.hpp */; };
+		4FFCEA4A1EE1C4BC00FFDE73 /* SLTunnel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4FFCEA491EE1C4BC00FFDE73 /* SLTunnel.hpp */; };
+		4FFCEA4E1EE1C4BC00FFDE73 /* SLTunnel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCEA4D1EE1C4BC00FFDE73 /* SLTunnel.cpp */; };
+		4FFCEA551EE1C7B700FFDE73 /* SLTunnel.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA491EE1C4BC00FFDE73 /* SLTunnel.hpp */; };
+		4FFCEA631EE1C97900FFDE73 /* SLTunnel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCEA4D1EE1C4BC00FFDE73 /* SLTunnel.cpp */; };
+		4FFCEA661EE1C9D700FFDE73 /* SLTunnel.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA491EE1C4BC00FFDE73 /* SLTunnel.hpp */; };
+		4FFCEA701EE3217000FFDE73 /* SLClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCEA6E1EE3217000FFDE73 /* SLClient.cpp */; };
+		4FFCEA711EE3217000FFDE73 /* SLClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCEA6E1EE3217000FFDE73 /* SLClient.cpp */; };
+		4FFCEA721EE3217000FFDE73 /* SLClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4FFCEA6F1EE3217000FFDE73 /* SLClient.hpp */; };
+		4FFCEA751EE3218800FFDE73 /* SLServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCEA731EE3218800FFDE73 /* SLServer.cpp */; };
+		4FFCEA771EE3218800FFDE73 /* SLServer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4FFCEA741EE3218800FFDE73 /* SLServer.hpp */; };
+		4FFCEA781EE32ECF00FFDE73 /* SLClient.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA6F1EE3217000FFDE73 /* SLClient.hpp */; };
+		4FFCEA791EE32ECF00FFDE73 /* SLServer.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA741EE3218800FFDE73 /* SLServer.hpp */; };
+		4FFCEA7A1EE32ED600FFDE73 /* SLClient.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA6F1EE3217000FFDE73 /* SLClient.hpp */; };
+		4FFCEA7B1EE32ED600FFDE73 /* SLServer.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FFCEA741EE3218800FFDE73 /* SLServer.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F7864DF1EE813350047E416 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4F8DFD751EE46DFE0020B438 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4F8DFD8C1EE562F40020B438 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4FCF67331EE680D700662D45 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Users/CmST0us/opt/usr/include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 0;
+			files = (
+				4F7858711EE736CE0047E416 /* SLUTNInterface.hpp in CopyFiles */,
+				4FCF67341EE6813100662D45 /* TunnelMessage.pb.h in CopyFiles */,
+				4FCF67351EE6813100662D45 /* MarcoTools.h in CopyFiles */,
+				4FCF67361EE6813100662D45 /* SLTunnel.hpp in CopyFiles */,
+				4FCF67371EE6813100662D45 /* SLClient.hpp in CopyFiles */,
+				4FCF67381EE6813100662D45 /* SLServer.hpp in CopyFiles */,
+				4FCF67391EE6813100662D45 /* SLConnection.hpp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FCF673A1EE6813C00662D45 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Users/CmST0us/opt/usr/include;
+			dstSubfolderSpec = 0;
+			files = (
+				4F7858751EE736E90047E416 /* SLUTNInterface.hpp in CopyFiles */,
+				4FCF673B1EE6814E00662D45 /* TunnelMessage.pb.h in CopyFiles */,
+				4FCF673C1EE6814E00662D45 /* MarcoTools.h in CopyFiles */,
+				4FCF673D1EE6814E00662D45 /* SLTunnel.hpp in CopyFiles */,
+				4FCF673E1EE6814E00662D45 /* SLClient.hpp in CopyFiles */,
+				4FCF673F1EE6814E00662D45 /* SLServer.hpp in CopyFiles */,
+				4FCF67401EE6814E00662D45 /* SLConnection.hpp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFCEA541EE1C70700FFDE73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/${PROJECT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				4F7858731EE736DA0047E416 /* SLUTNInterface.hpp in CopyFiles */,
+				4FCF672F1EE67F8300662D45 /* TunnelMessage.pb.h in CopyFiles */,
+				4FCF67301EE67F8300662D45 /* MarcoTools.h in CopyFiles */,
+				4F8DFD9B1EE5AEFB0020B438 /* SLConnection.hpp in CopyFiles */,
+				4FFCEA7A1EE32ED600FFDE73 /* SLClient.hpp in CopyFiles */,
+				4FFCEA7B1EE32ED600FFDE73 /* SLServer.hpp in CopyFiles */,
+				4FFCEA551EE1C7B700FFDE73 /* SLTunnel.hpp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFCEA581EE1C88500FFDE73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4F7858741EE736E30047E416 /* SLUTNInterface.hpp in CopyFiles */,
+				4FCF67311EE67F8B00662D45 /* TunnelMessage.pb.h in CopyFiles */,
+				4FCF67321EE67F8B00662D45 /* MarcoTools.h in CopyFiles */,
+				4F8DFD9C1EE5AF040020B438 /* SLConnection.hpp in CopyFiles */,
+				4FFCEA781EE32ECF00FFDE73 /* SLClient.hpp in CopyFiles */,
+				4FFCEA791EE32ECF00FFDE73 /* SLServer.hpp in CopyFiles */,
+				4FFCEA661EE1C9D700FFDE73 /* SLTunnel.hpp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F78586A1EE736BD0047E416 /* SLUTNInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLUTNInterface.cpp; sourceTree = "<group>"; };
+		4F78586B1EE736BD0047E416 /* SLUTNInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLUTNInterface.hpp; sourceTree = "<group>"; };
+		4F7864E11EE813350047E416 /* combine_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = combine_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7864E31EE813350047E416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F7864E81EE815410047E416 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		4F7864E91EE815410047E416 /* Foo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Foo.mm; sourceTree = "<group>"; };
+		4F7864EB1EE816660047E416 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F7864ED1EE816820047E416 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4F8DFD721EE467C70020B438 /* MarcoTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarcoTools.h; sourceTree = "<group>"; };
+		4F8DFD771EE46DFE0020B438 /* tunnel_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tunnel_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8DFD791EE46DFE0020B438 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4F8DFD831EE483C70020B438 /* TunnelMessage.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = TunnelMessage.proto; sourceTree = "<group>"; };
+		4F8DFD841EE4889E0020B438 /* TunnelMessage.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TunnelMessage.pb.cc; sourceTree = "<group>"; };
+		4F8DFD851EE4889E0020B438 /* TunnelMessage.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunnelMessage.pb.h; sourceTree = "<group>"; };
+		4F8DFD8E1EE562F40020B438 /* server_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = server_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8DFD901EE562F40020B438 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4F8DFD961EE5AEEC0020B438 /* SLConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLConnection.cpp; sourceTree = "<group>"; };
+		4F8DFD971EE5AEEC0020B438 /* SLConnection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLConnection.hpp; sourceTree = "<group>"; };
+		4FFCEA461EE1C4BC00FFDE73 /* libSplendidTunnel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSplendidTunnel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFCEA491EE1C4BC00FFDE73 /* SLTunnel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SLTunnel.hpp; sourceTree = "<group>"; };
+		4FFCEA4D1EE1C4BC00FFDE73 /* SLTunnel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SLTunnel.cpp; sourceTree = "<group>"; };
+		4FFCEA5A1EE1C88500FFDE73 /* libSplendidTunnel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSplendidTunnel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFCEA6E1EE3217000FFDE73 /* SLClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLClient.cpp; sourceTree = "<group>"; };
+		4FFCEA6F1EE3217000FFDE73 /* SLClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLClient.hpp; sourceTree = "<group>"; };
+		4FFCEA731EE3218800FFDE73 /* SLServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SLServer.cpp; sourceTree = "<group>"; };
+		4FFCEA741EE3218800FFDE73 /* SLServer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SLServer.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F7864DE1EE813350047E416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DFD741EE46DFE0020B438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8DFD821EE483490020B438 /* libSplendidTunnel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DFD8B1EE562F40020B438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8DFD951EE56A9A0020B438 /* libSplendidTunnel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFCEA431EE1C4BC00FFDE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFCEA571EE1C88500FFDE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F7864E21EE813350047E416 /* combine_test */ = {
+			isa = PBXGroup;
+			children = (
+				4F7864E31EE813350047E416 /* main.m */,
+				4F7864E81EE815410047E416 /* Foo.h */,
+				4F7864E91EE815410047E416 /* Foo.mm */,
+			);
+			path = combine_test;
+			sourceTree = "<group>";
+		};
+		4F8DFD781EE46DFE0020B438 /* tunnel_test */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DFD791EE46DFE0020B438 /* main.cpp */,
+			);
+			path = tunnel_test;
+			sourceTree = "<group>";
+		};
+		4F8DFD891EE488A40020B438 /* TunnelMessage */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DFD841EE4889E0020B438 /* TunnelMessage.pb.cc */,
+				4F8DFD851EE4889E0020B438 /* TunnelMessage.pb.h */,
+				4F8DFD831EE483C70020B438 /* TunnelMessage.proto */,
+			);
+			name = TunnelMessage;
+			sourceTree = "<group>";
+		};
+		4F8DFD8F1EE562F40020B438 /* server_test */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DFD901EE562F40020B438 /* main.cpp */,
+			);
+			path = server_test;
+			sourceTree = "<group>";
+		};
+		4FFCEA3D1EE1C4BC00FFDE73 = {
+			isa = PBXGroup;
+			children = (
+				4F7864ED1EE816820047E416 /* CoreFoundation.framework */,
+				4F7864EB1EE816660047E416 /* Foundation.framework */,
+				4FFCEA481EE1C4BC00FFDE73 /* SplendidTunnel */,
+				4F8DFD781EE46DFE0020B438 /* tunnel_test */,
+				4F8DFD8F1EE562F40020B438 /* server_test */,
+				4F7864E21EE813350047E416 /* combine_test */,
+				4FFCEA471EE1C4BC00FFDE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFCEA471EE1C4BC00FFDE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFCEA461EE1C4BC00FFDE73 /* libSplendidTunnel.a */,
+				4FFCEA5A1EE1C88500FFDE73 /* libSplendidTunnel.a */,
+				4F8DFD771EE46DFE0020B438 /* tunnel_test */,
+				4F8DFD8E1EE562F40020B438 /* server_test */,
+				4F7864E11EE813350047E416 /* combine_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFCEA481EE1C4BC00FFDE73 /* SplendidTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DFD891EE488A40020B438 /* TunnelMessage */,
+				4F8DFD721EE467C70020B438 /* MarcoTools.h */,
+				4FFCEA491EE1C4BC00FFDE73 /* SLTunnel.hpp */,
+				4FFCEA4D1EE1C4BC00FFDE73 /* SLTunnel.cpp */,
+				4FFCEA6F1EE3217000FFDE73 /* SLClient.hpp */,
+				4FFCEA6E1EE3217000FFDE73 /* SLClient.cpp */,
+				4FFCEA741EE3218800FFDE73 /* SLServer.hpp */,
+				4FFCEA731EE3218800FFDE73 /* SLServer.cpp */,
+				4F8DFD971EE5AEEC0020B438 /* SLConnection.hpp */,
+				4F8DFD961EE5AEEC0020B438 /* SLConnection.cpp */,
+				4F78586A1EE736BD0047E416 /* SLUTNInterface.cpp */,
+				4F78586B1EE736BD0047E416 /* SLUTNInterface.hpp */,
+			);
+			path = SplendidTunnel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FFCEA441EE1C4BC00FFDE73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8DFD9A1EE5AEEC0020B438 /* SLConnection.hpp in Headers */,
+				4F7858701EE736BD0047E416 /* SLUTNInterface.hpp in Headers */,
+				4FFCEA721EE3217000FFDE73 /* SLClient.hpp in Headers */,
+				4FFCEA4A1EE1C4BC00FFDE73 /* SLTunnel.hpp in Headers */,
+				4FFCEA771EE3218800FFDE73 /* SLServer.hpp in Headers */,
+				4F8DFD881EE4889E0020B438 /* TunnelMessage.pb.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F7864E01EE813350047E416 /* combine_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7864E51EE813350047E416 /* Build configuration list for PBXNativeTarget "combine_test" */;
+			buildPhases = (
+				4F7864DD1EE813350047E416 /* Sources */,
+				4F7864DE1EE813350047E416 /* Frameworks */,
+				4F7864DF1EE813350047E416 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = combine_test;
+			productName = combine_test;
+			productReference = 4F7864E11EE813350047E416 /* combine_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		4F8DFD761EE46DFE0020B438 /* tunnel_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8DFD7B1EE46DFE0020B438 /* Build configuration list for PBXNativeTarget "tunnel_test" */;
+			buildPhases = (
+				4F8DFD731EE46DFE0020B438 /* Sources */,
+				4F8DFD741EE46DFE0020B438 /* Frameworks */,
+				4F8DFD751EE46DFE0020B438 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tunnel_test;
+			productName = tunnel_test;
+			productReference = 4F8DFD771EE46DFE0020B438 /* tunnel_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		4F8DFD8D1EE562F40020B438 /* server_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8DFD921EE562F40020B438 /* Build configuration list for PBXNativeTarget "server_test" */;
+			buildPhases = (
+				4F8DFD8A1EE562F40020B438 /* Sources */,
+				4F8DFD8B1EE562F40020B438 /* Frameworks */,
+				4F8DFD8C1EE562F40020B438 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = server_test;
+			productName = server_test;
+			productReference = 4F8DFD8E1EE562F40020B438 /* server_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		4FFCEA451EE1C4BC00FFDE73 /* SplendidTunnel macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFCEA511EE1C4BC00FFDE73 /* Build configuration list for PBXNativeTarget "SplendidTunnel macOS" */;
+			buildPhases = (
+				4FFCEA421EE1C4BC00FFDE73 /* Sources */,
+				4FFCEA431EE1C4BC00FFDE73 /* Frameworks */,
+				4FFCEA441EE1C4BC00FFDE73 /* Headers */,
+				4FFCEA541EE1C70700FFDE73 /* CopyFiles */,
+				4FCF67331EE680D700662D45 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplendidTunnel macOS";
+			productName = SplendidTunnel;
+			productReference = 4FFCEA461EE1C4BC00FFDE73 /* libSplendidTunnel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4FFCEA591EE1C88500FFDE73 /* SplendidTunnel iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFCEA601EE1C88500FFDE73 /* Build configuration list for PBXNativeTarget "SplendidTunnel iOS" */;
+			buildPhases = (
+				4FFCEA561EE1C88500FFDE73 /* Sources */,
+				4FFCEA571EE1C88500FFDE73 /* Frameworks */,
+				4FFCEA581EE1C88500FFDE73 /* CopyFiles */,
+				4FCF673A1EE6813C00662D45 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplendidTunnel iOS";
+			productName = "SplendidTunnel iOS";
+			productReference = 4FFCEA5A1EE1C88500FFDE73 /* libSplendidTunnel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFCEA3E1EE1C4BC00FFDE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CmST0us;
+				TargetAttributes = {
+					4F7864E01EE813350047E416 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F8DFD761EE46DFE0020B438 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F8DFD8D1EE562F40020B438 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4FFCEA451EE1C4BC00FFDE73 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4FFCEA591EE1C88500FFDE73 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FFCEA411EE1C4BC00FFDE73 /* Build configuration list for PBXProject "SplendidTunnel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FFCEA3D1EE1C4BC00FFDE73;
+			productRefGroup = 4FFCEA471EE1C4BC00FFDE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFCEA451EE1C4BC00FFDE73 /* SplendidTunnel macOS */,
+				4FFCEA591EE1C88500FFDE73 /* SplendidTunnel iOS */,
+				4F8DFD761EE46DFE0020B438 /* tunnel_test */,
+				4F8DFD8D1EE562F40020B438 /* server_test */,
+				4F7864E01EE813350047E416 /* combine_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7864DD1EE813350047E416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7864EA1EE815410047E416 /* Foo.mm in Sources */,
+				4F7864E41EE813350047E416 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DFD731EE46DFE0020B438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F78586E1EE736BD0047E416 /* SLUTNInterface.cpp in Sources */,
+				4F8DFD7A1EE46DFE0020B438 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DFD8A1EE562F40020B438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F78586F1EE736BD0047E416 /* SLUTNInterface.cpp in Sources */,
+				4F8DFD911EE562F40020B438 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFCEA421EE1C4BC00FFDE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F78586C1EE736BD0047E416 /* SLUTNInterface.cpp in Sources */,
+				4F8DFD981EE5AEEC0020B438 /* SLConnection.cpp in Sources */,
+				4FFCEA4E1EE1C4BC00FFDE73 /* SLTunnel.cpp in Sources */,
+				4FFCEA751EE3218800FFDE73 /* SLServer.cpp in Sources */,
+				4F8DFD861EE4889E0020B438 /* TunnelMessage.pb.cc in Sources */,
+				4FFCEA701EE3217000FFDE73 /* SLClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFCEA561EE1C88500FFDE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFCEA631EE1C97900FFDE73 /* SLTunnel.cpp in Sources */,
+				4F8DFD871EE4889E0020B438 /* TunnelMessage.pb.cc in Sources */,
+				4FFCEA711EE3217000FFDE73 /* SLClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F7864E61EE813350047E416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INPUT_FILETYPE = automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F7864E71EE813350047E416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INPUT_FILETYPE = automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F8DFD7C1EE46DFE0020B438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F8DFD7D1EE46DFE0020B438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F8DFD931EE562F40020B438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F8DFD941EE562F40020B438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FFCEA4F1EE1C4BC00FFDE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/Users/CmST0us/opt/usr/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/Users/CmST0us/opt/usr/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-levent_extra",
+					"-levent_core",
+					"-levent",
+					"-lprotobuf",
+					"-levent_pthreads",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FFCEA501EE1C4BC00FFDE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/Users/CmST0us/opt/usr/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/Users/CmST0us/opt/usr/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-levent_extra",
+					"-levent_core",
+					"-levent",
+					"-lprotobuf",
+					"-levent_pthreads",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FFCEA521EE1C4BC00FFDE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+			};
+			name = Debug;
+		};
+		4FFCEA531EE1C4BC00FFDE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+			};
+			name = Release;
+		};
+		4FFCEA611EE1C88500FFDE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4FFCEA621EE1C88500FFDE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F7864E51EE813350047E416 /* Build configuration list for PBXNativeTarget "combine_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7864E61EE813350047E416 /* Debug */,
+				4F7864E71EE813350047E416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F8DFD7B1EE46DFE0020B438 /* Build configuration list for PBXNativeTarget "tunnel_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8DFD7C1EE46DFE0020B438 /* Debug */,
+				4F8DFD7D1EE46DFE0020B438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8DFD921EE562F40020B438 /* Build configuration list for PBXNativeTarget "server_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8DFD931EE562F40020B438 /* Debug */,
+				4F8DFD941EE562F40020B438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFCEA411EE1C4BC00FFDE73 /* Build configuration list for PBXProject "SplendidTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFCEA4F1EE1C4BC00FFDE73 /* Debug */,
+				4FFCEA501EE1C4BC00FFDE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFCEA511EE1C4BC00FFDE73 /* Build configuration list for PBXNativeTarget "SplendidTunnel macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFCEA521EE1C4BC00FFDE73 /* Debug */,
+				4FFCEA531EE1C4BC00FFDE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFCEA601EE1C88500FFDE73 /* Build configuration list for PBXNativeTarget "SplendidTunnel iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFCEA611EE1C88500FFDE73 /* Debug */,
+				4FFCEA621EE1C88500FFDE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFCEA3E1EE1C4BC00FFDE73 /* Project object */;
+}
