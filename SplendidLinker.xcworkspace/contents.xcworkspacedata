@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SplendidTunnel/SplendidTunnel.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SplendidLinker.xcodeproj">
+      location = "group:SplendidLinker-iOS/SplendidLinker.xcodeproj">
    </FileRef>
 </Workspace>
